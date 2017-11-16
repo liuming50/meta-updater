@@ -9,3 +9,5 @@ UBOOT_MACHINE_sota = "qemu-x86_defconfig"
 OSTREE_BOOTLOADER ?= "u-boot"
 
 OSTREE_KERNEL_ARGS ?= "ramdisk_size=16384 rw rootfstype=ext4 rootwait rootdelay=2 ostree_root=/dev/hda"
+
+IMAGE_ROOTFS_EXTRA_SPACE_sota = "65536"
